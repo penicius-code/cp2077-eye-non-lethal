@@ -1,0 +1,333 @@
+# Cyberslop Eye Non-Lethal 1.3.0 (2026-11-02; list from 1.1.0, 2026-11-01): the eyes that can run non-lethal mode,
+# and their tooltip line. Basic Kiroshi and KIROSHI Non-Lethal (12503) at every tier; every other Kiroshi model
+# from Epic (Tier 4) up; 1.3.0: Kiroshi Optics Echo (Nexus 34618, Items.EchoOptics, block at the end).
+# The switch itself: r6\scripts\zz_CyberslopEyeNonLethal. Generated list, one block per item record
+# (TweakXL appends don't pass to child records).
+Items.CyberslopNonLethalEyesPackage:
+  $type: gamedataGameplayLogicPackage
+  UIData:
+    localizedDescription: "<Rich color=\"#905FD4\">Non-lethal mode: knocks humans out instead of killing. Toggle with the key left of Z.</>"
+
+# Basic Kiroshi Optics, all tiers
+Items.AdvancedKiroshiOpticsBareCommon:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareCommonPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareUncommon:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareUncommonPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareRare:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareRarePlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsBareLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# KIROSHI Non-Lethal (Nexus 12503), all tiers
+Items.AdvancedKiroshiOpticsNonLethalCommon:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalCommonPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalUncommon:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalUncommonPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalRare:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalRarePlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsNonLethalLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Basic Kiroshi Optics iconic, Epic and up
+Items.Iconic_AdvancedKiroshiOpticsBareEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.Iconic_AdvancedKiroshiOpticsBareEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.Iconic_AdvancedKiroshiOpticsBareLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.Iconic_AdvancedKiroshiOpticsBareLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.Iconic_AdvancedKiroshiOpticsBareLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi Combined optics, Epic and up
+Items.AdvancedKiroshiOpticsCombinedEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsCombinedEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsCombinedLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsCombinedLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsCombinedLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi Hunter optics, Epic and up
+Items.AdvancedKiroshiOpticsHunterEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsHunterEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsHunterLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsHunterLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsHunterLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi Piercing optics, Epic and up
+Items.AdvancedKiroshiOpticsPiercingEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsPiercingEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsPiercingLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsPiercingLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsPiercingLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi Sensor optics, Epic and up
+Items.AdvancedKiroshiOpticsSensorEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsSensorEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsSensorLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsSensorLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsSensorLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi optics, wall-scan variant, Epic and up
+Items.AdvancedKiroshiOpticsWallhackEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsWallhackEpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsWallhackLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsWallhackLegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsWallhackLegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi tutorial optics (Sensor based), Epic and up
+Items.AdvancedKiroshiOptics_Tutorial_Epic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOptics_Tutorial_EpicPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOptics_Tutorial_Legendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOptics_Tutorial_LegendaryPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOptics_Tutorial_LegendaryPlusPlus:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Pre-2.0 Kiroshi optics records, Epic and up
+Items.AdvancedKiroshiOpticsEpic:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+Items.AdvancedKiroshiOpticsLegendary:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
+
+# Kiroshi Optics Echo (Nexus 34618, r6\tweaks\EchoOptics, loads before zz_), 1.3.0.
+# Its own record ($base AdvancedKiroshiOpticsBareLegendary with its own OnEquip), so it needs its own block.
+# Without that mod TweakXL logs an error for this block and skips it; the rest still loads.
+Items.EchoOptics:
+  tags:
+    - !append-once CyberslopNonLethalEyes
+  OnEquip:
+    - !append-once Items.CyberslopNonLethalEyesPackage
