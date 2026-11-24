@@ -25,4 +25,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install yamllint
-      - run: yamllint -d "{extends: relaxed, rules: {line-length: disable, indentation: disable, empty-lines: disable, trailing-spaces: disable, new-line-at-end-of-file: disable}}" .
+      - run: |
+          yamllint -d "{extends: relaxed, rules: {line-length: disable, indentation: disable, empty-lines: disable, trailing-spaces: disable, new-line-at-end-of-file: disable}}" .
