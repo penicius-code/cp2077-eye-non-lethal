@@ -3,6 +3,8 @@
 A key that switches your Kiroshi optics to non-lethal mode, for Cyberpunk 2077: hits on human enemies knock out instead of kill. Single-player only.
 Version 1.6.0 | For game version 2.5 | Status: versions up to 1.3.0 confirmed in game on 2.31; 1.4.0 to 1.6.0 compile on 2.5 and are not yet play-tested
 
+**Download:** [latest release](https://github.com/penicius-code/cp2077-eye-non-lethal/releases/latest) (zip; install steps below)
+
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
 ## The problem
@@ -45,7 +47,7 @@ Codeware provides the key input. Requirements are not bundled. Exact framework v
 ## Install
 
 1. Install the requirements above.
-2. Copy the `r6` folder from `package/` into the game folder.
+2. Download the zip from the [latest release](https://github.com/penicius-code/cp2077-eye-non-lethal/releases/latest) (the same files as `package/` in this repository) and extract it into the game folder.
 3. Start the game, equip Kiroshi optics that qualify (their tooltip shows the line "Non-lethal mode ...") and press the key left of Z. A message "Non-lethal: ON" appears.
 
 ## Uninstall / roll back
